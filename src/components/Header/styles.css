@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 620px) {
+  .custom-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+  }
+
+  .custom-header h1 {
+    display: none;
+    border: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .custom-header h1 {
+    margin-left: 20px;
+  }
+}
